@@ -1,0 +1,57 @@
+Manipulação de strings (Visualg)
+
+Codigo 1
+
+Var
+
+valor : caractere
+convertida : caractere
+
+Inicio
+
+escreval("Digite uma palavra:")
+leia(palavra)
+convertida <- maiusc(valor)
+escreval(convertida)
+
+fimalgoritmo
+___________________________________________
+
+Codigo 2
+
+Var
+
+valor : caractere
+comprimento : inteiro
+
+Inicio
+
+escreval("Digite uma palavra:")
+leia(palavra)
+comprimento <- compr(palavra)
+escreval("a palavra contém", comprimento, "caractere")
+
+fimalgoritmo
+____________________________________________________________
+
+Codigo 3
+
+Var
+
+data,dia,mes,ano : caractere
+
+Inicio
+
+escreval("Digite uma data:")
+leia(data)
+dia <- copia(data;1;2)
+mes <- copia(data;4;2)
+ano <- copia(data;7;4)
+
+escreval("dia;",dia)
+escreval("mes;",mes)
+escreval("ano;",ano)
+
+fimalgoritmo
+
+
